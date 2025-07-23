@@ -1,7 +1,10 @@
 #pragma once
-#include<iostream>
+#include <iostream>
+#include <string>
 using namespace std;
-void nhap(int a[], int& n);
-void xuat(int a[], int n);
-int timphantulonnhat(int a[], int n);
-int timphantubenhat(int a[], int n);
+void nhapChuoi(string ds[], int& n);
+void xuatChuoi(string ds[], int n);
+string catChuoi(string& s, int ViTri, int SoKiTu);
+bool TimtuKhoa(string& s, string& TuKhoa);
+void SapxepChuoi(string ds[],int n);
+void chuoiDaiNhat(string ds[], int& n);
